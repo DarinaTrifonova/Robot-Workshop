@@ -15,5 +15,4 @@ Variables                       Variables/Locators/RegisterPageLocators.py
 Resource                        Keywords/GlobalKeywords.robot
 Resource                        Keywords/A_User_Access_Keywords.robot
 # Olya
-# Mihaela1
 #Mihaela2
