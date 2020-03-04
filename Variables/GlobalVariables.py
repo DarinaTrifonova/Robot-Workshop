@@ -1,4 +1,4 @@
-SERVER = "opencart.abstracta.us"
+SERVER = "http://automationpractice.com/index.php"
 
 STOREFRONT_URL = "http://"+SERVER+"/"
 REGISTER_URL = "https://"+SERVER+"/index.php?route=account/register"
