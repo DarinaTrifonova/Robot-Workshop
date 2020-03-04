@@ -6,4 +6,4 @@ I Am Registering A Customer
     Location Should Be  ${REGISTER_URL}
 
 I Am Entering Valid Information
-    Input Text  ${}
+#    Input Text  ${your_locator}  ${text, for example USER_NAME}
