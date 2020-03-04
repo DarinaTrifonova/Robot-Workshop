@@ -6,7 +6,7 @@ Variables                       Variables/GlobalVariables.py
 Variables                       Variables/Forms/RegisterPageVariables.py
 
 # Locators
-Variables                       Variables/Locators/RegisterPageLocators.py
+Variables                       Variables/Locators/RegisterUserLocators.py
 
 # Keywords
 Resource                        Keywords/GlobalKeywords.robot
