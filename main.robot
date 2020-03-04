@@ -18,3 +18,4 @@ Resource                        Keywords/A_User_Access_Keywords.robot
 # Olya2
 # Simona
 # Mihaela154
+# Kalina
