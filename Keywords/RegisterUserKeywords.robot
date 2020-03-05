@@ -5,9 +5,8 @@ I Am Registering A Customer
     Create Random Email
     Input Text  ${email_address_field_create_an_account_page}  ${user_email}
     Click Button  ${create_an_account_button}
-    #Location Should Be  ${REGISTER_URL}
-    Wait Until Location Is  ${REGISTER_URL}  timeout=10
-    #Wait Until Page Contains Element  ${your_personal_information}  ${TIMEOUT}
+    #Wait Until Location Is  ${REGISTER_URL}  timeout=10
+    Wait Until Page Contains Element  ${your_personal_information}  ${TIMEOUT}
 
 
 
