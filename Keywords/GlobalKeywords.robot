@@ -10,6 +10,8 @@ Open Chrome To Storefront
 
 
 Create Random Email
-   ${user_email_part_1}=  Genarate Random String  ${NUMBER_8}  [LOWER]
-   ${user_email}=   Catanate  SEPARATOR=  ${user_email_part_1}  ${user_email_part_2}
+   ${user_email_part_1}=  Generate Random String  ${NUMBER_8}  [LOWER]
+   ${user_email}=  Catenate  SEPARATOR=  ${user_email_part_1}  ${user_email_part_2}
    Set Test Variable  ${user_email}
+
+

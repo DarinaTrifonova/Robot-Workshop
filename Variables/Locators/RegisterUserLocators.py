@@ -16,4 +16,3 @@ register_button_create_an_account_page = "xpath = //button[@id='submitAccount']"
 
 
 
-
