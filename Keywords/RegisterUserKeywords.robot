@@ -49,5 +49,3 @@ I Am Entering Invalid Information
 
 Then The Registration Is Not Successful
     Location Should Be  ${URL}
-
-
