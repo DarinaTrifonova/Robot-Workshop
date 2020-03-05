@@ -8,7 +8,6 @@ Test Setup     Open Chrome To Storefront
 
 Scenario: Successful Search Product
     Given I Am Searching a Product
-    And I Am Entering Valid Information
     Then Searching Is Successful
 
 #Scenario Outline: Unsuccessful Registration Of A Customer - Invalid Information
