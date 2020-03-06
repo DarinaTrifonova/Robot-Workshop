@@ -6,9 +6,14 @@ Test Setup     Open Chrome To Storefront
 
 *** Test Cases ***
 
-Scenario: Successful Search Product
-    Given I Am Searching a Product
-    Then Searching Is Successful
+#Scenario: Successful Search Product
+#    Given I Am Choosing A Product
+#    Then Searching Is Successful
+
+
+
+
+
 
 #Scenario Outline: Unsuccessful Registration Of A Customer - Invalid Information
 #    Given I Am Registering A Customer
