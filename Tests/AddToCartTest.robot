@@ -8,4 +8,4 @@ Test Setup     Open Chrome To Storefront
 Scenario: Add To Cart
     Given I Navigate To Product Listing Page
     When I Click On A Product And Set Quantity And Size
-   #    Then I Can Add Product To Basket
+    Then I Can Add Product To Basket
