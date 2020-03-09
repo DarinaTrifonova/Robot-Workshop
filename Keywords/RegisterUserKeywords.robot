@@ -1,11 +1,11 @@
 *** Keywords ***
 
-I Am Registering A Customer
-    Click Element  ${top_navigation_sign_in}
-    Create Random Email
-    Input Text  ${email_field}  ${user_email}
-    Click Element  ${create_account_button}
-    Location Should Be  ${REGISTER_URL}
+#I Am Registering A Customer
+#    Click Element  ${top_navigation_sign_in}
+#    Create Random Email
+#    Input Text  ${email_field}  ${user_email}
+#    Click Element  ${create_account_button}
+#    Location Should Be  ${REGISTER_URL}
     #Wait Until Location Is  ${REGISTER_URL}  timeout=10
 #    Wait Until Page Contains Element  ${your_personal_information}
 
@@ -22,10 +22,10 @@ I Am Registering A Customer
 #    Input Text  ${assign_address}  ${alias}
 #    Click Element  ${register_button}
 
-I Am Registering A Customer
-    Click Element  ${top_navigation_sign_in}
-    Input Text  ${email_field}  ${invalid_email}
-    Click Element  ${create_account_button}
+#I Am Registering A Customer
+#    Click Element  ${top_navigation_sign_in}
+#    Input Text  ${email_field}  ${invalid_email}
+#    Click Element  ${create_account_button}
 
 
 
