@@ -24,6 +24,24 @@ I Am Entering Valid Information
     Input Text  ${Mobile_locator}  ${MobilePhone}
     Click Element  ${Register_button_locator}
 
+The Registration Is Successful
+    Location Should Be  ${REGISTER_URL}
+
+
+I Am Entering Invalid Information
+     Input Text  ${First_name_input_registration}  ${Valid_First_Name}
+     Input Text  ${Last_name_input_registration}  ${Valid_Last_Name}
+     Click Element  ${Email_create_account}
+     Create Random Email
+     Input Text  ${Passwd}  ${Invalid_Passwd}
+     Input Text  ${Address}  ${Addr}
+     Input Text  ${City_locator}  ${City_valid_var}
+     Select From List By Index  ${dropdown_index}  33
+     Input Text  ${PostCode_locator}  ${Valid_PostCode}
+     Input Text  ${Mobile_locator}  ${MobilePhone}
+     Click Element  ${Register_button_locator}
+
+
   #   Input Text  ${your_locator}  ${text, for example USER_NAME}
 
 #The Registration Is Successful
