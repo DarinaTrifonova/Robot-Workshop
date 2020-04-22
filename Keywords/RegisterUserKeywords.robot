@@ -1,9 +1,34 @@
 *** Keywords ***
 
 I Am Registering A Customer
-    Click Element  ${user_account_dropdown}
-    Click Element  ${user_register_dropdown}
-    Location Should Be  ${REGISTER_URL}
+    Click Element  ${Sign_in_button}
+    Create Random Email
+    Input Text  ${Input_field_email_create_an_account}  ${user_email}
+    Click Element  ${Create_account_button}
+    Wait Until Page Contains Element  ${UR_Personal_Info}
+
+#    Location Should First_name_input_registrationBe  ${REGISTER_URL}
+#    Click Element  ${user_register_dropdown}
+#    Location Should Be  ${REGISTER_URL}
 
 I Am Entering Valid Information
-#    Input Text  ${your_locator}  ${text, for example USER_NAME}
+    Input Text  ${First_name_input_registration}  ${Valid_First_Name}
+    Input Text  ${Last_name_input_registration}  ${Valid_Last_Name}
+    Click Element  ${Email_create_account}
+    Create Random Email
+    Input Text  ${Passwd}  ${Valid_Passwd}
+    Input Text  ${Address}  ${Addr}
+    Input Text  ${City_locator}  ${City_valid_var}
+    Select From List By Index  ${dropdown_index}  33
+    Input Text  ${PostCode_locator}  ${Valid_PostCode}
+    Input Text  ${Mobile_locator}  ${MobilePhone}
+    Click Element  ${Register_button_locator}
+
+  #   Input Text  ${your_locator}  ${text, for example USER_NAME}
+
+#The Registration Is Successful
+#Location Should Be  ${
+#     Location Should Be  ${REGISTER_URL}
+
+
+
