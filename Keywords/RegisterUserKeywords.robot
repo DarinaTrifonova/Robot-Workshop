@@ -25,7 +25,7 @@ I Am Entering Valid Information
     Click Element  ${Register_button_locator}
 
 The Registration Is Successful
-    Location Should Be  ${REGISTER_URL}
+    Location Should Be  ${SUCCESSFUL_REGISTRATION}
 
 
 I Am Entering Invalid Information
@@ -42,6 +42,8 @@ I Am Entering Invalid Information
      Click Element  ${Register_button_locator}
 
 
+The Registration Is Not Successful
+    Page Should Contain Element  ${Register_not_successful_error}
   #   Input Text  ${your_locator}  ${text, for example USER_NAME}
 
 #The Registration Is Successful

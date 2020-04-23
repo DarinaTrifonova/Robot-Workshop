@@ -7,12 +7,12 @@ Test Setup     Open Chrome To Storefront
 
 *** Test Cases ***
 
-Scenario: Successful Registration Of A Customer
+Scenario: Successful Registration Of A CustomerReRe
    Given I Am Registering A Customer
    And I Am Entering Valid Information
  #  Then The Registration Is Successful
 
 Scenario: Unsuccessful Registration Of A Customer - Invalid Information
     Given I Am Registering A Customer
-#    And I Am Entering Invalid Information
-#    Then The Registration Is Not Successful
+    And I Am Entering Invalid Information
+    Then The Registration Is Not Successful
