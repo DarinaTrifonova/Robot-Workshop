@@ -1,4 +1,4 @@
-# Add here the locators from the homework
+
 Sign_in_button = "xpath = //a[@title='Log in to your customer account']"
 Input_field_email_create_an_account = "xpath = //input[@id='email_create']"
 Create_account_button = "xpath = //button[@name='SubmitCreate']"
