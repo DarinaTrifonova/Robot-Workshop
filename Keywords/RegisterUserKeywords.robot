@@ -9,7 +9,7 @@ I Am Registering A Customer
 
 #    Location Should First_name_input_registrationBe  ${REGISTER_URL}
 #    Click Element  ${user_register_dropdown}
-#    Location Should Be  ${REGISTER_URL}
+                                        ##    Location Should Be  ${REGISTER_URL}
 
 I Am Entering Valid Information
     Input Text  ${First_name_input_registration}  ${Valid_First_Name}
@@ -46,8 +46,8 @@ The Registration Is Not Successful
     Page Should Contain Element  ${Register_not_successful_error}
   #   Input Text  ${your_locator}  ${text, for example USER_NAME}
 
-The Registration Is Successful
-     Location Should Be  ${REGISTER_URL}
+#The Registration Is Successful
+#     Location Should Be  ${REGISTER_URL}
 
 
 
