@@ -12,4 +12,3 @@ Scenario : Search Items And Verification Of Results
     And I Search For Items
 #    Then Search Results Are Corresponding To My Search
 
-
