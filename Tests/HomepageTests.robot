@@ -7,8 +7,15 @@ Test Setup     Open Chrome To Storefront
 
 *** Test Cases ***
 
-Scenario : Search Items And Verification Of Results
-    Given I Am On Homepage
-    And I Search For Items
-#    Then Search Results Are Corresponding To My Search
+Scenario: Search Items
+    Given I Am On Search Field
+    And I Am Entering Valid Input
+    Then Results Are Valid
+
+
+Scenario: Blouses Search
+    Given Hover Over Women Section
+#   And I Choose Blouses
+#   Then I Am At The Given Valid Results
+
 
