@@ -15,5 +15,9 @@ Hover Over Women Section
     Mouse Over  ${Mouse_Over_Women_Section}
 
 I Choose Blouses
-    Click Button  ${Click_Over_Blouses}
+    Mouse Up  ${Click_Over_Blouses}
+    Click Element  ${Click_Over_Blouses}
+
+I Am At Blouses Result page
+    Page Should Contain Textfield  ${}
 
