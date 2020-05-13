@@ -12,5 +12,8 @@ Results Are Valid
     Location Should Be  ${Result_Page_Shirts}
 
 Hover Over Women Section
-    Mouse Over  ${}
+    Mouse Over  ${Mouse_Over_Women_Section}
+
+I Choose Blouses
+    Click Button  ${Click_Over_Blouses}
 
