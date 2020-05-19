@@ -18,6 +18,6 @@ I Choose Blouses
     Mouse Up  ${Click_Over_Blouses}
     Click Element  ${Click_Over_Blouses}
 
-I Am At Blouses Result page
-    Page Should Contain Textfield  ${}
+I Am At Blouses Result Page
+    Page Should Contain Element  ${Contains_Text_Blouses}
 

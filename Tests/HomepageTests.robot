@@ -16,6 +16,8 @@ Test Setup     Open Chrome To Storefront
 Scenario: Blouses Search
     Given Hover Over Women Section
     And I Choose Blouses
-    Then I Am At Blouses Result page
+    Then I Am At Blouses Result Page
+
+Scenario: 
 
 
